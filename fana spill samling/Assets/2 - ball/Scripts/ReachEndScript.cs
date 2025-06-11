@@ -30,7 +30,7 @@ namespace to.ball
         {
             yield return new WaitForSeconds(3);
             scoreboard.LagreTid();
-            SceneManager.LoadScene("scoreboard");
+            SceneManager.LoadScene("2 - scoreboard");
         }
     }
 }

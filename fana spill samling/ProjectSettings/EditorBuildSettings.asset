@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2 - ball/Scenes/2 - sonic.unity
     guid: 55c93ad8a91be4e488166d533c53935f
+  - enabled: 1
+    path: Assets/4 - jumpship/Scenes/4 - SampleScene.unity
+    guid: 24bc930fb4305cf4ba161c18e1d93f37
+  - enabled: 1
+    path: Assets/4 - jumpship/Scenes/4 - vinn.unity
+    guid: 042f565acbfd5324fadaa14e186cb833
   m_configObjects: {}

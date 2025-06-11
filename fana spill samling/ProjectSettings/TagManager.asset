@@ -12,6 +12,8 @@ TagManager:
   - 2
   - 3
   - Kamera
+  - Spiller
+  - planet
   layers:
   - Default
   - TransparentFX
@@ -23,7 +25,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - planet
   - 
   - 
   - 
