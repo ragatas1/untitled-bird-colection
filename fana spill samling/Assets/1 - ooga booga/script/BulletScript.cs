@@ -8,7 +8,6 @@ namespace en.OogaBooga
     {
         public Rigidbody2D steinenSinRigidBody;
         public float kasteFart;
-        public movement spilleren;
         public SpriteRenderer steinSprite;
         void Awake()
         {

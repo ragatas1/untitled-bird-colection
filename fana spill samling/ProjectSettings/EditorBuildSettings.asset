@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/generelt/Scenes/chooseScenePlaceholder.unity
+    guid: 1539241e1e5afc442ab31744a0f88507
+  - enabled: 1
     path: Assets/1 - ooga booga/Scenes/1 - startscene.unity
     guid: ce067eeb2b26965448df820e5ef9c0e8
   - enabled: 1

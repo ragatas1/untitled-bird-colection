@@ -37,7 +37,10 @@ namespace en.OogaBooga
             }
 
         }
-
+        void utAvSpill()
+        {
+            Destroy(gameObject);
+        }
         public void leggTilScore1()
         {
             BonkSoundEffect.Play();
@@ -59,7 +62,10 @@ namespace en.OogaBooga
         }
         private void Update()
         {
-            
+            if (Input.GetButtonDown("pause"))
+            {
+                utAvSpill();
+            }
             if (hvemHarStein == 1)
             {
                 spiller1Tid = Mathf.Round(spiller1Tid * 1f) * 1f;

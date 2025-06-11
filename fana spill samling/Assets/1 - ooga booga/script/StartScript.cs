@@ -49,8 +49,8 @@ namespace en.OogaBooga
             }
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                logikk.hvemLeder = 2;
-                SceneManager.LoadScene("1 - BaneForsok");
+                logikk.hvemLeder = 2; 
+                logikk.nyScene();
             }
 
         }
