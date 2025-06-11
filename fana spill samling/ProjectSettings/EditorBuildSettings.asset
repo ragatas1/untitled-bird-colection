@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/1 - ooga booga/Scenes/1 - Mordi Vant.unity
     guid: 1b9116c48ea710b46b5198cb7196e8cc
+  - enabled: 1
+    path: Assets/2 - ball/Scenes/2 - scoreboard.unity
+    guid: 6c58a4cb7eee3354f89f59c6acac0494
+  - enabled: 1
+    path: Assets/2 - ball/Scenes/2 - sonic.unity
+    guid: 55c93ad8a91be4e488166d533c53935f
   m_configObjects: {}

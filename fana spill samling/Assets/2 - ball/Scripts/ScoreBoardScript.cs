@@ -12,6 +12,7 @@ namespace to.ball
         private float ny4Score;
         private float ny5Score;
 
+
         public void LagreTid()
         {
             if (timer.count < PlayerPrefs.GetFloat("1Score"))
@@ -65,14 +66,6 @@ namespace to.ball
                 PlayerPrefs.SetFloat("5Score", timer.count);
             }
         }
-        public void ResetScore()
-        {
-            PlayerPrefs.SetFloat("1Score", 999);
-            PlayerPrefs.SetFloat("2Score", 999);
-            PlayerPrefs.SetFloat("3Score", 999);
-            PlayerPrefs.SetFloat("4Score", 999);
-            PlayerPrefs.SetFloat("5Score", 999);
 
-        }
     }
 }

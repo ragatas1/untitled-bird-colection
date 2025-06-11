@@ -17,16 +17,6 @@ namespace to.ball
             timer.vant = false;
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-            if (Input.GetKeyUp(KeyCode.Escape))
-            {
-                scoreboard.ResetScore();
-                Debug.Log("resatte");
-            }
-        }
-
         private void OnTriggerEnter2D(Collider2D collision)
         {
             text.SetActive(true);

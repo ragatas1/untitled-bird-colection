@@ -11,11 +11,12 @@ TagManager:
   - 1
   - 2
   - 3
+  - Kamera
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - bakke
   - Water
   - UI
   - 

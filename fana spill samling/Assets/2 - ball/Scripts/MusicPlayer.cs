@@ -20,5 +20,9 @@ namespace to.ball
         {
             AudioManager.Play("Music");
         }
+        public void stop()
+        {
+            AudioManager.Stop("Music");
+        }
     }
 }
